@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*  xs screen */
+.test {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+    "g"
+    "h"
+    "i"
+    "j";
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/*----------------------------------------- start header ----------------------------------*/
+
+.header {
+  background-color: #f7f8f9;
+  grid-area: a;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 50px 0px;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 20px 0px;
+  font-family: "Arvo", sans-serif;
+  font-weight: 200;
+  line-height: 1.4em;
+  font-size: 38px;
+  color: #333;
+  max-width: 80%;
+  margin: auto;
+}
+.header span {
+  color: #9fa3a7;
+  margin: 20px 0px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.header a {
+  color: #27b9c2;
+}
+
+/*------------------------------------ end header ----------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------ start iphone ----------------------------------------*/
+
+.iphone {
+  background-color: #fff;
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.iphone-img {
+  width: 55%;
+}
+
+.iphone-text span {
+  color: #9fa3a7;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.iphone-text p {
+  color: #a1a5a9;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.iphone-text h2 {
+  font-family: "Arvo", sans-serif;
+  font-weight: 200;
+  line-height: 1.4em;
+  font-size: 24px;
+  margin: 20px 0px;
+}
+/*------------------------------------ end iphone ----------------------------------------*/
+
+
+
+
+
+/*------------------------------------ start keyboard ----------------------------------------*/
+
+
+.keyboard {
+  background-color: #f05638;
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+
+.key-text h2 {
+  color: #fff;
+  padding: 0px 50px;
+  font-family: Arvo, sans-serif;
+  margin: 20px 0px;
+  line-height: 35px;
+}
+
+.key-text a {
+  color: #ffc80a;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.key-text a i {
+  font-size: 10px;
+}
+
+/*------------------------------------ end keyboard ----------------------------------------*/
+
+
+
+
+
+/*------------------------------------ start Controller ----------------------------------------*/
+
+
+.Controller {
+  background-color: #f7f8f9;
+  grid-area: d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+
+.Controller-img {
+  position: relative;
+  right: 7%;
+}
+
+.Controller-text h2 {
+  font-family: Arvo, sans-serif;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #333333;
+}
+
+.Controller-text a {
+  color: #27b9c2;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.Controller-text a i {
+  font-size: 10px;
+}
+
+
+/*------------------------------------ end Controller ----------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------ start imac ----------------------------------------*/
+
+.imac {
+  background-color: #ffffff;
+  grid-area: e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.imac span {
+  font-family: "Montserrat", sans-serif;
+  color: #9fa3a7;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.imac h2 {
+  font-family: Arvo, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #333333;
+  margin: 15px 0px;
+}
+
+.imac-text {
+  margin-bottom: 15px;
+}
+
+.imac-img {
+  position: relative;
+  right: 55%;
+  width: 130%;
+}
+
+.imac-text p {
+  color: #9fa3a7;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 100;
+  margin: 25px 0px;
+}
+
+.imac-text a {
+  color: #27b9c2;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/*------------------------------------ end imac ----------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------ start twitter ----------------------------------------*/
+
+.Twitter {
+  background-color: #38d5f4;
+  grid-area: f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+
+.twitter-circle {
+  background-color: #35cfed;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.twitter-img {
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.twitter-circle h2 {
+  color: #fff;
+  font-size: 25px;
+  width: 75%;
+  font-family: Arvo, sans-serif;
+  font-weight: 200;
+}
+
+/*------------------------------------ end twitter ----------------------------------------*/
+
+
+
+
+
+/*------------------------------------ start best-exp ----------------------------------------*/
+
+.best-exp {
+  background-color: #93b6b7;
+  grid-area: g;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.best-choice span {
+  background-color: #fa684f;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.best-text h2 {
+  text-align: center;
+  color: #fff;
+  font-family: Arvo, sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  margin: 15px auto;
+}
+
+.best-img {
+  position: relative;
+  right: 10%;
+  width: 90%;
+  margin-bottom: 0;
+}
+
+/*------------------------------------ end best-exp ----------------------------------------*/
+
+
+
+
+
+/*------------------------------------ start popular ----------------------------------------*/
+
+.popular {
+  background-color: #8f76bc;
+  grid-area: h;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.popular-circle {
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8166b0;
+  margin-bottom: 25px;
+}
+
+.pop {
+  background-color: #8b72b6;
+  border-radius: 17px;
+  padding: 0px 10px;
+}
+.pop-img {
+  width: 60%;
+  display: block;
+  margin-top: 20px;
+}
+
+.pop i {
+  color: #ffc80a;
+  font-size: 10px;
+}
+
+.pop span {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.pop-text h2 {
+  color: #fff;
+  font-size: 35px;
+  font-family: Arvo, sans-serif;
+  margin-top: 35px;
+}
+
+.pop-text p {
+  color: #fff;
+  width: 90%;
+  margin: 20px auto;
+  font-size: 14px;
+}
+
+.pop-text button {
+  border-radius: 50px;
+  padding: 17px 28px;
+  border-color: transparent;
+  background-color: #ffc80a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  color: #000;
+  margin: 20px 0px;
+}
+
+/*------------------------------------ end popular ----------------------------------------*/
+
+
+
+
+
+/*------------------------------------ start popular-exp ----------------------------------------*/
+
+
+.popular-exp {
+  background-color: #f7f8f9;
+  grid-area: i;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+
+.green-pop span {
+  background-color: #7bc424;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.green-pop h2 {
+  color: #333333;
+  font-weight: 100;
+  font-family: Arvo, sans-serif;
+  margin: 20px auto;
+  width: 80%;
+}
+
+
+/*------------------------------------ end popular-exp ----------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------ start tv ----------------------------------------*/
+
+
+.tv {
+  background-color: #2c2c2c;
+  grid-area: j;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.tv-img {
+  position: relative;
+  right: 15%;
+}
+
+.tv-text h2 {
+  font-family: Arvo, sans-serif;
+  color: #fff;
+  font-weight: 200;
+  font-size: 22px;
+  margin: auto;
+}
+
+
+/*------------------------------------ end tv ----------------------------------------*/

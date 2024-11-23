@@ -1,0 +1,219 @@
+@media screen and (min-width: 479px) {
+  .sm-100 {
+    width: 100%;
+  }
+  .sm-80 {
+    width: 80%;
+  }
+  .sm-75 {
+    width: 75%;
+  }
+  .sm-50 {
+    width: 50%;
+  }
+  .sm-40 {
+    width: 40%;
+  }
+  .sm-33 {
+    width: 33.333%;
+  }
+  .sm-25 {
+    width: 25%;
+  }
+  .sm-20 {
+    width: 20%;
+  }
+  .sm-16 {
+    width: 16.6666%;
+  }
+
+  .test {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "a a"
+      "b b"
+      "c d"
+      "e e"
+      "f h"
+      "g h"
+      "i i"
+      "j j";
+  }
+
+  .iphone {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .imac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 15px 0px;
+  }
+
+  .tv {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    padding: 0px 30px;
+  }
+
+  .imac-text {
+    padding-bottom: 70px;
+  }
+
+  .imac-img {
+    right: 120%;
+    width: 205%;
+  }
+
+
+}
+
+@media screen and (min-width: 991px) {
+  .md-100 {
+    width: 100%;
+  }
+  .md-80 {
+    width: 80%;
+  }
+  .md-75 {
+    width: 75%;
+  }
+  .md-50 {
+    width: 50%;
+  }
+  .md-40 {
+    width: 40%;
+  }
+  .md-33 {
+    width: 33.333%;
+  }
+  .md-25 {
+    width: 25%;
+  }
+  .md-30 {
+    width: 30%;
+  }
+  .md-20 {
+    width: 20%;
+  }
+  .md-16 {
+    width: 16.6666%;
+  }
+
+  .test {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "b b a a "
+      "b b a a"
+      "b b a a"
+      "b b a a"
+      "b b a a"
+      "c e e h"
+      "c e e h "
+      "c e e h"
+      "d g g h"
+      "d g g h"
+      "d g g h"
+      "f i j j";
+  }
+
+  .iphone-img {
+    width: 30%;
+  }
+
+  .popular {
+    padding-top: 50px;
+    padding-bottom: 115px;
+    overflow: hidden;
+  }
+
+  .best-exp h2 {
+    margin: 10px auto;
+    max-width: 280px;
+  }
+
+  .Twitter {
+    padding: 0px;
+  }
+
+  .imac {
+    padding-top: 40px;
+  }
+  .imac-img {
+    right: 105%;
+    width: 190%;
+  }
+  .best-img {
+    right: 4%;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-100 {
+    width: 100%;
+  }
+  .lg-75 {
+    width: 75%;
+  }
+  .lg-50 {
+    width: 50%;
+  }
+  .lg-40 {
+    width: 40%;
+  }
+
+  .lg-33 {
+    width: 33.333%;
+  }
+  .lg-25 {
+    width: 25%;
+  }
+  .lg-20 {
+    width: 20%;
+  }
+  .lg-16 {
+    width: 16.6666%;
+  }
+
+  .iphone-img {
+    width: 30%;
+  }
+
+  .popular {
+    padding-top: 50px;
+    padding-bottom: 115px;
+    overflow: hidden;
+  }
+
+  .best-exp h2 {
+    margin: 10px auto;
+    max-width: 280px;
+  }
+
+  .Twitter {
+    padding: 0px;
+  }
+
+  .imac-img {
+    right: 105%;
+    width: 190%;
+  }
+  .best-img {
+    right: 4%;
+    width: 85%;
+  }
+
+  .imac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
